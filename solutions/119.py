@@ -4,6 +4,7 @@ class Solution(object):
         :type rowIndex: int
         :rtype: List[int]
         """
+        
         rowIndex += 1
         if rowIndex == 1:
             return [1]
