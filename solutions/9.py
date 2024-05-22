@@ -6,9 +6,9 @@ class Solution(object):
         """
 
         if x < 0:
-            return False
+            return False  # Negative integers can never be palindromes.
         
-        tempNumber = x
+        tempNumber = xa
         reversedNumber = 0
         while tempNumber > 0:
             reversedNumber *= 10
